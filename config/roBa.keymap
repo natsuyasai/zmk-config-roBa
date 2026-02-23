@@ -4,13 +4,13 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "balanced";
+    flavor = "balanced"; 
     quick-tap-ms = <0>;
 };
 
 &trackball {
     automouse-layer = <3>;
-    scroll-layers = <5>;
+    scroll-layers = <4>;
 
     // arrows {
     //     layers = <3>;
