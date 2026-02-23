@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: fn_and_num, h: sticky}
-  - '-'
+  - BACKSPACE
+  - {t: '-', h: fn_and_num}
   - N
   - M
   - ','
@@ -38,10 +38,10 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - BACKSPACE
   - SPACE
-  - {t: '&to_layer_0 ENTER', h: symbol}
+  - {t: ENTER, h: symbol}
   - {t: fn_and_num, h: sticky}
+  - BACKSPACE
   - {t: ENTER, h: symbol}
   - {t: mouse, h: sticky}
   symbol:
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,7 +105,7 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - F11
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
@@ -116,22 +116,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
