@@ -39,8 +39,8 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - SPACE
-  - {t: ENTER, h: symbol}
-  - {t: fn_and_num, h: sticky}
+  - {t: symbol, h: sticky}
+  - {t: ENTER, h: fn_and_num}
   - BACKSPACE
   - {t: ENTER, h: symbol}
   - {t: mouse, h: sticky}
