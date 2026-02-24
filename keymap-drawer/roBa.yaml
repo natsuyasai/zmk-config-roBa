@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - {t: TAB, h: bluetooth}
-  - ESC
+  - '-'
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - BACKSPACE
-  - {t: '-', h: fn_and_num}
+  - {t: ESCAPE, h: fn_and_num}
   - N
   - M
   - ','
@@ -61,7 +61,7 @@ layers:
   - ']'
   - ;
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - UP
   - LEFT
   - DOWN
@@ -73,7 +73,7 @@ layers:
   - ''''
   - '='
   - {t: ▽, type: trans}
-  - '-'
+  - DELETE
   - {t: ▽, type: trans}
   - HOME
   - {t: ▽, type: trans}
@@ -225,8 +225,6 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]
