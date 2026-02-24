@@ -44,6 +44,16 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        shift_space {
+            bindings = <&kp LS(SPACE)>;
+            key-positions = <22 23>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 3>;
+        };
     };
 
     behaviors {
@@ -72,10 +82,10 @@
 
         default_layer {
             bindings = <
-&kp Q                           &kp W         &kp E         &kp R      &kp T                                               &kp Y                     &kp U  &kp I      &kp O    &kp P
-&kp A                           &kp S         &kp D         &kp F      &kp G  &layer_normalkey 4 TAB        &kp MINUS      &kp H                     &kp J  &kp K      &kp L    &kp ENTER
-&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B  &kp BACKSPACE                 &lt 2 ESCAPE   &kp N                     &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &sl 1  &layer_normalkey 2 ENTER      &kp BACKSPACE  &layer_normalkey 1 ENTER                             &sl 3
+&kp Q                           &kp W         &kp E         &kp R      &kp T                                                                  &kp Y                     &kp U  &kp I      &kp O    &kp P
+&kp A                           &kp S         &kp D         &kp F      &kp G                     &layer_normalkey 4 TAB        &kp MINUS      &kp H                     &kp J  &kp K      &kp L    &kp ENTER
+&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B                     &kp BACKSPACE                 &lt 2 ESCAPE   &kp N                     &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &layer_normalkey 1 ENTER  &layer_normalkey 2 ENTER      &kp BACKSPACE  &layer_normalkey 1 ENTER                             &sl 3
             >;
         };
 
