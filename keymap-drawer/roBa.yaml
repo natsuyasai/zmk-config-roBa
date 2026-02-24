@@ -221,11 +221,9 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
+- p: [11, 10]
   k: TAB
-- p: [12, 13]
+- p: [12, 11]
   k: Sft+TAB
 - p: [20, 21]
   k: '"'
-- p: [24, 25]
-  k: '='
