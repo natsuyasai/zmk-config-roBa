@@ -47,12 +47,12 @@
 
         shift_space {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <22 23>;
+            key-positions = <10 11>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <25 26>;
+            key-positions = <25 24>;
         };
     };
 
