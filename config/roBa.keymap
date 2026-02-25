@@ -54,6 +54,12 @@
             bindings = <&kp ESCAPE>;
             key-positions = <25 24>;
         };
+
+        test {
+            bindings = <&kp A>;
+            key-positions = <37 38 39 40 41 18 19 20>;
+            layers = <4>;
+        };
     };
 
     behaviors {
