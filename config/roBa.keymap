@@ -52,7 +52,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <25 26>;
         };
     };
 
