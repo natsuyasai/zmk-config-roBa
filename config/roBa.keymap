@@ -11,6 +11,7 @@
 
 &trackball {
     // automouse-layer = <3>;
+
     scroll-layers = <4>;
 
     // arrows {
@@ -57,7 +58,7 @@
 
         mouse_check {
             bindings = <&kp A>;
-            key-positions = <37 38 39 40 41 18 19 20>;
+            key-positions = <37 38 39 31 32>;
             layers = <4>;
         };
     };
@@ -115,10 +116,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans          &trans           &trans                                    &trans          &trans     &trans     &kp K_MUTE  &kp C_VOLUME_UP
-&trans  &trans  &mkp LCLK       &mkp RCLK        &msc SCRL_UP    &trans         &trans     &msc SCRL_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK   &kp C_VOLUME_DOWN
-&trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans         &trans     &msc SCRL_DOWN  &kp HOME   &kp END    &trans      &sl 4
-&trans  &trans  &trans          &mkp LCLK        &mkp RCLK       &mkp MCLK      &mkp LCLK  &mkp RCLK                                         &trans
+&trans  &trans  &trans  &trans     &trans                            &trans  &trans  &trans     &kp K_MUTE  &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans     &trans     &trans         &trans  &trans  &trans  &trans     &trans      &kp C_VOLUME_DOWN
+&trans  &trans  &trans  &trans     &trans     &trans         &trans  &trans  &trans  &mkp LCLK  &mkp RCLK   &sl 4
+&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK      &trans  &trans                                 &trans
             >;
         };
 
