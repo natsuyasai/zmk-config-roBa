@@ -91,10 +91,10 @@
 
         symbol {
             bindings = <
-&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)
-&kp COMMA     &kp DOT     &kp LBKT       &kp RBKT      &kp SEMI       &trans      &trans      &kp UP         &kp LEFT      &kp DOWN       &kp RIGHT     &trans
-&kp BSLH      &kp FSLH    &kp GRAVE      &kp SQT       &kp EQUAL      &trans      &kp DELETE  &kp PAGE_UP    &kp HOME      &kp PAGE_DOWN  &kp END       &trans
-&trans        &trans      &trans         &trans        &trans         &trans      &trans      &trans                                                    &trans
+&kp LS(EXCL)    &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                 &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)
+&kp COMMA       &kp DOT     &kp LBKT       &kp RBKT      &kp SEMI       &kp BACKSLASH      &trans      &kp UP         &kp LEFT      &kp DOWN       &kp RIGHT     &trans
+&kp LEFT_SHIFT  &kp FSLH    &kp GRAVE      &kp SQT       &kp EQUAL      &trans             &kp DELETE  &kp PAGE_UP    &kp HOME      &kp PAGE_DOWN  &kp END       &trans
+&trans          &trans      &trans         &trans        &trans         &trans             &trans      &trans                                                    &trans
             >;
         };
 
