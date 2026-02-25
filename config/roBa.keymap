@@ -10,12 +10,12 @@
 };
 
 &trackball {
-    automouse-layer = <3>;
+    // automouse-layer = <3>;
     scroll-layers = <4>;
 
     // arrows {
     //     layers = <3>;
-    //     bindings =
+    //     bizip_temp_layerndings =
     //         <&kp RIGHT_ARROW>,
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
@@ -55,7 +55,7 @@
             key-positions = <25 24>;
         };
 
-        test {
+        mouse_check {
             bindings = <&kp A>;
             key-positions = <37 38 39 40 41 18 19 20>;
             layers = <4>;
