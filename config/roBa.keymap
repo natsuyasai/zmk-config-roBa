@@ -33,11 +33,6 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
 
@@ -48,7 +43,7 @@
 
         shift_space {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <10 11>;
+            key-positions = <22 11>;
         };
 
         esc {
