@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ENTER
-  - Z
+  - {t: LEFT SHIFT, h: Z}
   - X
   - C
   - V
@@ -35,12 +35,12 @@ layers:
   - ','
   - .
   - RIGHT SHIFT
-  - LEFT SHIFT
+  - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - LCTRL
   - SPACE
   - {t: ENTER, h: symbol}
+  - {t: TAB, h: fn_and_num}
   - BACKSPACE
   - {t: ENTER, h: symbol}
   - {t: mouse, h: sticky}
@@ -67,11 +67,11 @@ layers:
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - \
+  - {t: ▽, type: trans}
   - /
   - '`'
   - ''''
-  - '='
+  - \
   - {t: ▽, type: trans}
   - DELETE
   - PAGE UP
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,13 +221,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [11, 12]
-  k: TAB
 - p: [12, 13]
-  k: Sft+TAB
+  k: TAB
 - p: [20, 21]
   k: '"'
-- p: [10, 11]
+- p: [11, 12]
   k: Sft+SPACE
 - p: [25, 24]
   k: ESCAPE
