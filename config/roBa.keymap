@@ -43,7 +43,7 @@
 
         shift_space {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <11 12>;
+            key-positions = <37 41>;
         };
 
         esc {
