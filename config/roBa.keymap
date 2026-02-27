@@ -64,8 +64,10 @@
             label = "HOLD_TAP_BALANCE";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <500>;
+            tapping-term-ms = <400>;
             bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <150>;
         };
 
         layer_normalkey: layer_normalkey {
