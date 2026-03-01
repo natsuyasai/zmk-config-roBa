@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ENTER
-  - {t: LEFT SHIFT, h: Z}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -67,7 +67,7 @@ layers:
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+LEFT SHIFT
   - /
   - '`'
   - ''''
@@ -150,10 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - VOLUME DOWN
   - {t: ▽, type: trans}
   - '1'
@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
+  - '&mkp MCLK'
   - {t: bluetooth, h: sticky}
   - {t: ▽, type: trans}
   - '0'
@@ -223,12 +223,12 @@ layers:
 combos:
 - p: [12, 13]
   k: TAB
-- p: [20, 21]
-  k: '"'
-- p: [11, 12]
+- p: [41, 38]
   k: Sft+SPACE
 - p: [25, 24]
   k: ESCAPE
-- p: [37, 38, 39, 31, 32]
+- p: [37, 38, 39, 31, 32, 30]
   k: A
   l: [bluetooth]
+- p: [25, 26]
+  k: ESCAPE
