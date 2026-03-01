@@ -36,14 +36,9 @@
             key-positions = <12 13>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         shift_space {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <37 41>;
+            key-positions = <41 38>;
         };
 
         esc {
@@ -53,8 +48,13 @@
 
         mouse_check {
             bindings = <&kp A>;
-            key-positions = <37 38 39 31 32>;
+            key-positions = <37 38 39 31 32 30>;
             layers = <4>;
+        };
+
+        esc2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <25 26>;
         };
     };
 
@@ -95,10 +95,10 @@
 
         symbol {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0
-&kp COMMA     &kp DOT       &kp LBKT      &kp RBKT      &kp SEMI       &trans      &trans      &kp UP        &kp LEFT      &kp DOWN       &kp RIGHT     &trans
-&trans        &kp FSLH      &kp GRAVE     &kp SQT       &kp BACKSLASH  &trans      &kp DELETE  &kp PAGE_UP   &kp HOME      &kp PAGE_DOWN  &kp END       &trans
-&trans        &trans        &trans        &trans        &trans         &trans      &trans      &trans                                                   &trans
+&kp NUMBER_1        &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0
+&kp COMMA           &kp DOT       &kp LBKT      &kp RBKT      &kp SEMI       &trans      &trans      &kp UP        &kp LEFT      &kp DOWN       &kp RIGHT     &trans
+&kp LS(LEFT_SHIFT)  &kp FSLH      &kp GRAVE     &kp SQT       &kp BACKSLASH  &trans      &kp DELETE  &kp PAGE_UP   &kp HOME      &kp PAGE_DOWN  &kp END       &trans
+&trans              &trans        &trans        &trans        &trans         &trans      &trans      &trans                                                   &trans
             >;
         };
 
@@ -113,10 +113,10 @@
 
         mouse {
             bindings = <
-&trans  &kp N7        &kp N8        &kp N9        &trans                            &trans  &trans  &trans     &kp K_MUTE  &kp C_VOLUME_UP
-&trans  &kp N4        &kp N5        &kp NUMBER_6  &trans     &trans         &trans  &trans  &trans  &trans     &trans      &kp C_VOLUME_DOWN
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3        &trans     &trans         &trans  &trans  &trans  &mkp LCLK  &mkp RCLK   &sl 4
-&trans  &kp N0        &kp PERIOD    &mkp LCLK     &mkp RCLK  &mkp MCLK      &trans  &trans                                 &trans
+&trans  &kp N7        &kp N8        &kp N9        &trans                            &trans        &trans          &trans          &kp K_MUTE       &kp C_VOLUME_UP
+&trans  &kp N4        &kp N5        &kp NUMBER_6  &trans     &trans         &trans  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3        &trans     &trans         &trans  &trans        &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
+&trans  &kp N0        &kp PERIOD    &mkp LCLK     &mkp RCLK  &mkp MCLK      &trans  &trans                                                         &trans
             >;
         };
 
