@@ -17,7 +17,7 @@
 
 &zip_temp_layer {
     excluded-positions = <
-    37 38 39 31 32
+    37 38 39 31 32 30
     >;
     require-prior-idle-ms = <200>;
 };
@@ -27,7 +27,7 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 3 3000>;
+        input-processors = <&zip_temp_layer 3 2000>;
     };
 };
 
