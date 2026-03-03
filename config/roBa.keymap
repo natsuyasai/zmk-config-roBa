@@ -58,7 +58,7 @@
         };
 
         pause {
-            bindings = <&kp C_PAUSE>;
+            bindings = <&kp PAUSE_BREAK>;
             key-positions = <8 9>;
         };
     };
