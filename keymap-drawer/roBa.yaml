@@ -62,8 +62,8 @@ layers:
   - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP
-  - LEFT
+  - LEFT ARROW
+  - UP ARROW
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
@@ -134,9 +134,9 @@ layers:
   - F12
   mouse:
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - KP 7
+  - KP 8
+  - KP 9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,9 +144,9 @@ layers:
   - MUTE
   - VOLUME UP
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,9 +156,9 @@ layers:
   - RIGHT ARROW
   - VOLUME DOWN
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - '&mkp MCLK'
   - {t: bluetooth, h: sticky}
   - {t: ▽, type: trans}
-  - '0'
+  - KP 0
   - .
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -232,3 +232,5 @@ combos:
   l: [bluetooth]
 - p: [25, 26]
   k: ESCAPE
+- p: [8, 9]
+  k: PAUSE
