@@ -74,8 +74,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - DELETE
-  - PAGE UP
   - HOME
+  - PG UP
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
@@ -233,4 +233,4 @@ combos:
 - p: [25, 26]
   k: ESCAPE
 - p: [8, 9]
-  k: PAUSE
+  k: PAUSE BREAK

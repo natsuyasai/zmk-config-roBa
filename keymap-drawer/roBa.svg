@@ -338,7 +338,9 @@ path.combo {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="52" class="combo tap">PAUSE</text>
+<text x="701" y="52" class="combo tap">
+<tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -469,13 +471,13 @@ path.combo {
 </g>
 <g transform="translate(504, 155)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PAGE</tspan><tspan x="0" dy="1.2em">UP</tspan>
-</text>
+<text x="0" y="0" class="key tap">HOME</text>
 </g>
 <g transform="translate(560, 148)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HOME</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
+</text>
 </g>
 <g transform="translate(617, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -548,7 +550,9 @@ path.combo {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="52" class="combo tap">PAUSE</text>
+<text x="701" y="52" class="combo tap">
+<tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -748,7 +752,9 @@ path.combo {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="52" class="combo tap">PAUSE</text>
+<text x="701" y="52" class="combo tap">
+<tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -994,7 +1000,9 @@ path.combo {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="52" class="combo tap">PAUSE</text>
+<text x="701" y="52" class="combo tap">
+<tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1212,7 +1220,9 @@ path.combo {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="52" class="combo tap">PAUSE</text>
+<text x="701" y="52" class="combo tap">
+<tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 </g>
 </g>
