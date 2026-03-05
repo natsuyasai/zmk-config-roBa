@@ -63,11 +63,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
+  - DOWN ARROW
   - UP ARROW
-  - DOWN
-  - RIGHT
+  - RIGHT ARROW
   - {t: ▽, type: trans}
-  - Sft+LEFT SHIFT
+  - LEFT SHIFT
   - /
   - '`'
   - ''''
@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - HOME
-  - PG UP
   - PAGE DOWN
+  - PAGE UP
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,16 +112,16 @@ layers:
   - F9
   - F10
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - PAGE UP
+  - PAGE DOWN
+  - END
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,9 +150,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
   - LEFT ARROW
   - DOWN ARROW
+  - UP ARROW
   - RIGHT ARROW
   - VOLUME DOWN
   - {t: ▽, type: trans}
