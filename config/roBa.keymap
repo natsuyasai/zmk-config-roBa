@@ -100,10 +100,10 @@
 
         symbol {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6       &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp NUMBER_0
-&kp COMMA       &kp DOT       &kp LBKT      &kp RBKT      &kp SEMI       &trans      &trans      &kp LS(SEMI)       &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(DOT)    &kp LS(COMMA)
-&kp LEFT_SHIFT  &kp FSLH      &kp GRAVE     &kp SQT       &kp BACKSLASH  &trans      &kp DELETE  &kp LS(BACKSLASH)  &kp LS(SINGLE_QUOTE)  &kp LS(GRAVE)          &kp LS(SLASH)  &trans
-&trans          &trans        &trans        &trans        &trans         &trans      &trans      &trans                                                                         &trans
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0
+&kp COMMA       &kp DOT       &kp LBKT      &kp RBKT      &kp SEMI       &trans      &trans      &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN       &kp RIGHT     &trans
+&kp LEFT_SHIFT  &kp FSLH      &kp GRAVE     &kp SQT       &kp BACKSLASH  &trans      &kp DELETE  &kp HOME        &kp PG_UP     &kp PAGE_DOWN  &kp END       &trans
+&trans          &trans        &trans        &trans        &trans         &trans      &trans      &trans                                                     &trans
             >;
         };
 
