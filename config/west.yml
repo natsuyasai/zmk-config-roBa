@@ -4,13 +4,18 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3-branch
+      remote: urob
+      revision: v0.3
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
       revision: main
+    - name: zmk-helpers
+      remote: urob
+      revision: v0.3
   self:
     path: config
