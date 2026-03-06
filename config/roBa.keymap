@@ -121,10 +121,10 @@
 
         mouse {
             bindings = <
-&trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                            &kp SLASH           &trans          &kp UP_ARROW    &kp K_MUTE       &kp C_VOLUME_UP
-&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans         &trans  &kp LS(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans         &trans  &trans              &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
-&trans  &kp KP_NUMBER_0  &kp PERIOD       &mkp LCLK        &mkp RCLK  &mkp MCLK      &trans  &trans                                                               &trans
+&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                            &kp SLASH         &trans          &kp UP_ARROW    &kp K_MUTE       &kp C_VOLUME_UP
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans         &trans  &kp LS(NUMBER_8)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans         &trans  &trans            &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
+&trans  &kp NUMBER_0  &kp PERIOD    &mkp LCLK     &mkp RCLK  &mkp MCLK      &trans  &trans                                                             &trans
             >;
         };
 
