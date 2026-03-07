@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // Personal includes
-#include "../zmk-helpers/helper.h"
 #include "includes/behaviours_homerow_mods.dtsi"
 
 &mt {
