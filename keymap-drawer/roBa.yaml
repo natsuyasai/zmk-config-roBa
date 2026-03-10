@@ -43,18 +43,18 @@ layers:
   - {t: TAB, h: fn_and_num}
   - BACKSPACE
   - {t: ENTER, h: symbol}
-  - {t: mouse, h: toggle}
+  - {t: mouse, h: sticky}
   symbol:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
   - ','
   - .
   - '['
@@ -134,31 +134,31 @@ layers:
   - F12
   mouse:
   - {t: ▽, type: trans}
-  - KP 7
-  - KP 8
-  - KP 9
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - /
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
   - MUTE
   - VOLUME UP
   - {t: ▽, type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
+  - Sft+8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+LEFT ARROW
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - VOLUME DOWN
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,14 +168,14 @@ layers:
   - '&mkp MCLK'
   - {t: bluetooth, h: sticky}
   - {t: ▽, type: trans}
-  - KP 0
+  - '0'
   - .
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [12, 13]
   k: TAB
