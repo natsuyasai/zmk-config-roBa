@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - BACKSPACE
-  - {t: ESCAPE, h: fn_and_num}
+  - ESCAPE
+  - {t: fn_and_num, h: sticky}
   - N
   - M
   - ','
@@ -40,21 +40,21 @@ layers:
   - LEFT ALT
   - SPACE
   - {t: ENTER, h: symbol}
-  - {t: TAB, h: fn_and_num}
+  - {t: BACKSPACE, h: fn_and_num}
   - BACKSPACE
   - {t: ENTER, h: symbol}
   - {t: mouse, h: sticky}
   symbol:
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ','
   - .
   - '['
@@ -223,11 +223,11 @@ layers:
 combos:
 - p: [12, 13]
   k: TAB
-- p: [41, 38]
+- p: [18, 19]
   k: Sft+SPACE
 - p: [25, 24]
   k: ESCAPE
-- p: [37, 38, 39, 31, 32, 30]
+- p: [31, 32, 30]
   k: A
   l: [bluetooth]
 - p: [25, 26]
