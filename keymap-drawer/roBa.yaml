@@ -234,3 +234,5 @@ combos:
   k: ESCAPE
 - p: [8, 9]
   k: PAUSE BREAK
+- p: [22, 23]
+  k: Z

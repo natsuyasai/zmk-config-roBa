@@ -340,6 +340,10 @@ path.combo {
 <tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
 </text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
+<text x="56" y="164" class="combo tap">Z</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-symbol">
@@ -554,6 +558,10 @@ path.combo {
 <tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
 </text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
+<text x="56" y="164" class="combo tap">Z</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-fn_and_num">
@@ -765,6 +773,10 @@ path.combo {
 <text x="701" y="52" class="combo tap">
 <tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
 </text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
+<text x="56" y="164" class="combo tap">Z</text>
 </g>
 </g>
 </g>
@@ -992,6 +1004,10 @@ path.combo {
 <tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
 </text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
+<text x="56" y="164" class="combo tap">Z</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-bluetooth">
@@ -1205,6 +1221,10 @@ path.combo {
 <text x="701" y="52" class="combo tap">
 <tspan x="701" dy="-0.6em">PAUSE</tspan><tspan x="701" dy="1.2em">BREAK</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
+<text x="56" y="164" class="combo tap">Z</text>
 </g>
 </g>
 </g>
