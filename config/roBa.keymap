@@ -64,6 +64,11 @@
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <8 9>;
         };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <22 23>;
+        };
     };
 
     behaviors {
