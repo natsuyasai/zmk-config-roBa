@@ -72,8 +72,8 @@ layers:
   - '`'
   - ''''
   - \
-  - {t: ▽, type: trans}
   - DELETE
+  - {t: ▽, type: trans}
   - HOME
   - PAGE DOWN
   - PAGE UP
@@ -232,7 +232,9 @@ combos:
   l: [bluetooth]
 - p: [25, 26]
   k: ESCAPE
-- p: [8, 9]
-  k: PAUSE BREAK
 - p: [22, 23]
   k: Z
+- p: [19, 20]
+  k: '-'
+- p: [7, 8]
+  k: '='
