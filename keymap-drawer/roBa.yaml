@@ -243,5 +243,5 @@ combos:
   k: '&single_quote'
 - p: [24, 25]
   k: '&double_quotes'
-- p: [22, 23]
+- p: [26, 25]
   k: '&apostrophe'
