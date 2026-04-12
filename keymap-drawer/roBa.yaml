@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - ENTER
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -225,16 +225,23 @@ combos:
   k: TAB
 - p: [18, 19]
   k: Sft+SPACE
-- p: [25, 24]
-  k: ESCAPE
-- p: [31, 32, 30]
-  k: A
-  l: [bluetooth]
-- p: [25, 26]
+- p: [30, 31]
   k: ESCAPE
 - p: [22, 23]
   k: Z
 - p: [19, 20]
   k: '-'
-- p: [7, 8]
+- p: [31, 32]
   k: '='
+- p: [0, 1]
+  k: '&parenthesis'
+- p: [1, 2]
+  k: '&bracket'
+- p: [2, 3]
+  k: '&brace'
+- p: [23, 24]
+  k: '&single_quote'
+- p: [24, 25]
+  k: '&double_quotes'
+- p: [22, 23]
+  k: '&apostrophe'
