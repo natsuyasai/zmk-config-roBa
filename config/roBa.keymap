@@ -122,42 +122,42 @@
         parenthesis: parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LPAR &kp RPAR>;
+            bindings = <&kp LPAR &kp RPAR &kp LEFT_ARROW>;
             label = "PARENTHESIS";
         };
 
         bracket: bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
             label = "BRACKET";
         };
 
         brace: brace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBRC &kp RBRC>;
+            bindings = <&kp LBRC &kp RBRC &kp LEFT_ARROW>;
             label = "BRACE";
         };
 
         single_quote: single_quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SQT &kp SQT>;
+            bindings = <&kp SQT &kp SQT &kp LEFT_ARROW>;
             label = "SINGLE_QUOTE";
         };
 
         double_quotes: double_quotes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT &kp DQT>;
+            bindings = <&kp DQT &kp DQT &kp LEFT_ARROW>;
             label = "DOUBLE_QUOTES";
         };
 
         apostrophe: apostrophe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp GRAVE>;
+            bindings = <&kp GRAVE &kp GRAVE &kp LEFT_ARROW>;
             label = "APOSTROPHE";
         };
     };
