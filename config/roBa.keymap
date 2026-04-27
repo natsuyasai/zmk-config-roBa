@@ -122,21 +122,21 @@
         parenthesis: parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LPAR &kp RPAR &kp LEFT_ARROW>;
+            bindings = <&kp LPAR &kp RPAR>;
             label = "PARENTHESIS";
         };
 
         bracket: bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
             label = "BRACKET";
         };
 
         brace: brace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBRC &kp RBRC &kp LEFT_ARROW>;
+            bindings = <&kp LBRC &kp RBRC>;
             label = "BRACE";
         };
 
@@ -194,10 +194,10 @@
 
         mouse {
             bindings = <
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                &trans  &trans          &kp UP_ARROW    &kp K_MUTE       &kp C_VOLUME_UP
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(NUMBER_8)  &trans         &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD        &trans         &trans  &trans  &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
-&trans  &kp NUMBER_0  &kp PERIOD    &mkp LCLK     &mkp RCLK         &mkp MCLK      &trans  &trans                                                   &trans
+&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                &kp MINUS      &trans          &kp UP_ARROW    &kp K_MUTE       &kp C_VOLUME_UP
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(NUMBER_8)  &trans         &trans  &kp LS(EQUAL)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD        &trans         &trans  &sl 4          &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
+&trans  &kp NUMBER_0  &kp PERIOD    &mkp LCLK     &mkp RCLK         &mkp MCLK      &trans  &trans                                                          &trans
             >;
         };
 
