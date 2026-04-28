@@ -138,7 +138,7 @@ layers:
   - '8'
   - '9'
   - /
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - UP ARROW
   - MUTE
@@ -150,7 +150,7 @@ layers:
   - Sft+8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+=
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -159,10 +159,10 @@ layers:
   - '1'
   - '2'
   - '3'
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: bluetooth, h: sticky}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
@@ -206,11 +206,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
