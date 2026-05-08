@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - ESCAPE
-  - {t: fn_and_num, h: sticky}
+  - LCTRL
   - N
   - M
   - ','
@@ -41,7 +41,7 @@ layers:
   - SPACE
   - {t: ENTER, h: symbol}
   - {t: BACKSPACE, h: fn_and_num}
-  - BACKSPACE
+  - {t: BACKSPACE, h: fn_and_num}
   - {t: ENTER, h: symbol}
   - {t: mouse, h: sticky}
   symbol:
@@ -117,7 +117,7 @@ layers:
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
@@ -245,3 +245,5 @@ combos:
   k: '&double_quotes'
 - p: [26, 25]
   k: '&apostrophe'
+- p: [13, 14]
+  k: ESCAPE
