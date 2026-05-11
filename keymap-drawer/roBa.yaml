@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - '='
+  - ENTER
   - '-'
   - H
   - J
@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - SPACE
-  - {t: ENTER, h: symbol}
+  - {t: symbol, h: sticky}
   - {t: BACKSPACE, h: fn_and_num}
   - {t: BACKSPACE, h: fn_and_num}
-  - {t: ENTER, h: symbol}
+  - ENTER
   - {t: mouse, h: sticky}
   symbol:
   - '1'
