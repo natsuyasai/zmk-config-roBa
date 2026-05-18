@@ -100,28 +100,28 @@ layers:
   - F9
   - F10
   - {t: ▽, type: trans}
-  - HOME
+  - LEFT ARROW
   - UP ARROW
-  - END
-  - PAGE UP
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
-  - HOME
+  - LEFT ARROW
+  - DOWN ARROW
   - UP ARROW
-  - END
+  - RIGHT ARROW
   - F11
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - HOME
+  - PAGE UP
   - PAGE DOWN
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
   - PAGE DOWN
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - PAGE UP
+  - END
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
