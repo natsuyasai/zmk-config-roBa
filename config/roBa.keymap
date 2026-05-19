@@ -95,6 +95,11 @@
 
         esc2 {
             bindings = <&kp ESCAPE>;
+            key-positions = <11 12>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <13 14>;
         };
     };
@@ -199,10 +204,10 @@
 
         mouse {
             bindings = <
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                &kp MINUS      &trans          &kp UP_ARROW    &kp K_MUTE       &kp C_VOLUME_UP
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(NUMBER_8)  &trans         &trans  &kp LS(EQUAL)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD        &trans         &trans  &sl 4          &mkp LCLK       &mkp RCLK       &mkp MCLK        &sl 4
-&trans  &kp NUMBER_0  &kp PERIOD    &mkp LCLK     &mkp RCLK         &mkp MCLK      &trans  &trans                                                          &trans
+&kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                       &trans  &trans     &trans     &kp K_MUTE  &kp C_VOLUME_UP
+&kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK   &trans      &trans  &trans  &trans     &trans     &sl 4       &kp C_VOLUME_DOWN
+&kp COLON  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK   &sl 4
+&trans     &kp NUMBER_0  &kp PERIOD    &trans        &trans      &trans      &trans  &trans                                    &trans
             >;
         };
 
