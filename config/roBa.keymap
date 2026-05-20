@@ -186,10 +186,10 @@
 
         symbol {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
-&kp COMMA       &kp DOT       &kp LBKT      &kp RBKT      &kp SEMI       &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp FSLH      &kp GRAVE     &kp SQT       &kp BACKSLASH  &kp DELETE      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-&trans          &trans        &trans        &trans        &trans         &trans          &trans  &trans                                                         &trans
+&kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
+&kp COMMA       &kp DOT           &kp SLASH          &kp GRAVE     &kp SEMI       &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT       &kp BACKSLASH  &kp DELETE      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+&trans          &trans            &trans             &trans        &trans         &trans          &trans  &trans                                                         &trans
             >;
         };
 
