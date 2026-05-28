@@ -96,11 +96,18 @@
         esc2 {
             bindings = <&kp ESCAPE>;
             key-positions = <11 12>;
+            layers = <0 2 3 4>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <13 14>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <11 12>;
+            layers = <1>;
         };
     };
 
