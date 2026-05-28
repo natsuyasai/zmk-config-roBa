@@ -247,5 +247,9 @@ combos:
   k: '&apostrophe'
 - p: [11, 12]
   k: ESCAPE
+  l: [default, fn_and_num, mouse, bluetooth]
 - p: [13, 14]
   k: ENTER
+- p: [11, 12]
+  k: DELETE
+  l: [symbol]

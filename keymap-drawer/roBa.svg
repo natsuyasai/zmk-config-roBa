@@ -613,12 +613,12 @@ path.combo {
 <text x="225" y="151" class="combo tap"><tspan style="font-size: 64%">&amp;apostrophe</tspan></text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
-<text x="112" y="91" class="combo tap">ESCAPE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="211" y="82" width="28" height="26" class="combo"/>
 <text x="225" y="95" class="combo tap">ENTER</text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
+<text x="112" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
