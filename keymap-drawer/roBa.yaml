@@ -233,11 +233,11 @@ combos:
   k: '-'
 - p: [31, 32]
   k: '='
-- p: [0, 1]
-  k: '&parenthesis'
 - p: [1, 2]
-  k: '&bracket'
+  k: '&parenthesis'
 - p: [2, 3]
+  k: '&bracket'
+- p: [4, 3]
   k: '&brace'
 - p: [23, 24]
   k: '&single_quote'
@@ -253,3 +253,5 @@ combos:
 - p: [11, 12]
   k: DELETE
   l: [symbol]
+- p: [8, 9]
+  k: Ctl+Alt+PAUSE BREAK
