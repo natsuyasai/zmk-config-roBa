@@ -65,17 +65,17 @@
 
         parenthesis {
             bindings = <&parenthesis>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         bracket {
             bindings = <&bracket>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
         };
 
         brace {
             bindings = <&brace>;
-            key-positions = <2 3>;
+            key-positions = <4 3>;
         };
 
         single_quote {
@@ -108,6 +108,11 @@
             bindings = <&kp DELETE>;
             key-positions = <11 12>;
             layers = <1>;
+        };
+
+        pausebreak {
+            bindings = <&kp LC(LA(PAUSE_BREAK))>;
+            key-positions = <8 9>;
         };
     };
 
