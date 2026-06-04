@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ENTER
+  - {t: bluetooth, h: sticky}
   - '-'
   - H
   - J
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: bluetooth, h: sticky}
+  - {t: ▽, type: trans}
   - VOLUME DOWN
   - ':'
   - '1'
@@ -162,7 +162,7 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: bluetooth, h: sticky}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
@@ -192,12 +192,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
   k: TAB
