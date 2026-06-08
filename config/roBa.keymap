@@ -191,17 +191,17 @@
             bindings = <
 &kp Q                           &kp W         &kp E         &kp R      &kp T                                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A                           &kp S         &kp D         &kp F      &kp G  &sl 4                             &kp MINUS                     &kp H      &kp J  &kp K      &kp L    &kp ENTER
-&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B  &kp ESCAPE                        &kp LCTRL                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B  &kp LCTRL                         &kp LCTRL                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &sl 1  &layer_normalkey 2 BACKSPACE      &layer_normalkey 2 BACKSPACE  &kp ENTER                             &sl 3
             >;
         };
 
         symbol {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
-&kp COMMA       &kp DOT           &kp SLASH          &kp GRAVE     &kp SEMI       &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT       &kp BACKSLASH  &kp DELETE      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-&trans          &trans            &trans             &trans        &trans         &trans          &trans  &trans                                                         &trans
+&kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5                       &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
+&kp COMMA       &kp DOT           &kp SLASH          &kp GRAVE     &kp SEMI       &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT       &kp BACKSLASH  &trans      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+&trans          &trans            &trans             &trans        &trans         &trans      &trans  &trans                                                         &trans
             >;
         };
 
