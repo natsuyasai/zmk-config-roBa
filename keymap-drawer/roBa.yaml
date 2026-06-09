@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - {t: bluetooth, h: sticky}
-  - '-'
+  - {t: mouse, h: sticky}
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - ESCAPE
+  - LCTRL
   - LCTRL
   - N
   - M
@@ -72,7 +72,7 @@ layers:
   - ']'
   - ''''
   - \
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - PAGE DOWN
@@ -149,7 +149,7 @@ layers:
   - '6'
   - '*'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -255,3 +255,9 @@ combos:
   l: [symbol]
 - p: [8, 9]
   k: Ctl+Alt+PAUSE BREAK
+- p: [0, 1]
+  k: BT CLR
+  l: [bluetooth]
+- p: [3, 4]
+  k: BT CLR ALL
+  l: [bluetooth]
