@@ -111,7 +111,7 @@
         };
 
         pausebreak {
-            bindings = <&kp LC(LA(PAUSE_BREAK))>;
+            bindings = <&kp PAUSE_BREAK>;
             key-positions = <8 9>;
         };
 
@@ -149,6 +149,17 @@
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
             quick-tap-ms = <180>;
+        };
+
+        layer_ctrl: layer_ctrl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_CTRL";
+            bindings = <&sl>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+            quick-tap-ms = <200>;
         };
     };
 
@@ -201,10 +212,10 @@
 
         default_layer {
             bindings = <
-&kp Q                           &kp W         &kp E         &kp R      &kp T                                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A                           &kp S         &kp D         &kp F      &kp G  &sl 4                             &sl 3                         &kp H      &kp J  &kp K      &kp L    &kp ENTER
-&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B  &kp LCTRL                         &kp LCTRL                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &sl 1  &layer_normalkey 2 BACKSPACE      &layer_normalkey 2 BACKSPACE  &kp ENTER                             &sl 3
+&kp Q                           &kp W         &kp E         &kp R      &kp T                                                                                &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A                           &kp S         &kp D         &kp F      &kp G                &sl 4                             &sl 3                         &kp H      &kp J  &kp K      &kp L    &kp ENTER
+&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B                &kp LCTRL                         &kp LCTRL                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &layer_ctrl 1 LCTRL  &layer_normalkey 2 BACKSPACE      &layer_normalkey 2 BACKSPACE  &kp ENTER                             &sl 3
             >;
         };
 
