@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - {t: bluetooth, h: sticky}
-  - {t: mouse, h: sticky}
+  - '-'
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - LCTRL
+  - {t: mouse, h: toggle}
   - LCTRL
   - N
   - M
@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - SPACE
-  - {t: symbol, h: sticky}
+  - {t: LCTRL, h: symbol}
   - {t: BACKSPACE, h: fn_and_num}
   - {t: BACKSPACE, h: fn_and_num}
-  - ENTER
+  - RIGHT SHIFT
   - {t: mouse, h: sticky}
   symbol:
   - '1'
@@ -133,33 +133,33 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
-  - '-'
+  - '*'
   - '7'
   - '8'
   - '9'
-  - /
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - VOLUME UP
-  - +
+  - /
   - '4'
   - '5'
   - '6'
-  - '*'
+  - +
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
-  - ':'
+  - .
   - '1'
   - '2'
   - '3'
-  - .
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: bluetooth, h: sticky}
@@ -167,7 +167,7 @@ layers:
   - '&mkp RCLK'
   - '&mkp MCLK'
   - {t: bluetooth, h: sticky}
-  - {t: ▽, type: trans}
+  - ENTER
   - '0'
   - .
   - {t: ▽, type: trans}
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,7 +254,7 @@ combos:
   k: DELETE
   l: [symbol]
 - p: [8, 9]
-  k: Ctl+Alt+PAUSE BREAK
+  k: PAUSE BREAK
 - p: [0, 1]
   k: BT CLR
   l: [bluetooth]
