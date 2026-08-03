@@ -41,8 +41,8 @@ layers:
   - SPACE
   - {t: LCTRL, h: symbol}
   - {t: BACKSPACE, h: fn_and_num}
-  - {t: BACKSPACE, h: fn_and_num}
-  - RIGHT SHIFT
+  - BACKSPACE
+  - {t: fn_and_num, h: sticky}
   - {t: mouse, h: sticky}
   symbol:
   - '1'
@@ -261,3 +261,7 @@ combos:
 - p: [3, 4]
   k: BT CLR ALL
   l: [bluetooth]
+- p: [13, 12, 11]
+  k: {t: bluetooth, h: sticky}
+- p: [30, 32, 31]
+  k: {t: bluetooth, h: sticky}
