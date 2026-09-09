@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - {t: bluetooth, h: sticky}
-  - '-'
+  - {t: mouse, h: toggle}
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: mouse, h: toggle}
+  - LCTRL
   - LCTRL
   - N
   - M
@@ -133,21 +133,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
-  - '*'
+  - /
   - '7'
   - '8'
   - '9'
-  - '-'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - VOLUME UP
-  - /
+  - '*'
   - '4'
   - '5'
   - '6'
-  - +
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,11 +155,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
-  - .
+  - '-'
   - '1'
   - '2'
   - '3'
-  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: bluetooth, h: sticky}
@@ -167,7 +167,7 @@ layers:
   - '&mkp RCLK'
   - '&mkp MCLK'
   - {t: bluetooth, h: sticky}
-  - ENTER
+  - +
   - '0'
   - .
   - {t: ▽, type: trans}
