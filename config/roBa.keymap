@@ -219,14 +219,14 @@
         ime_on: ime_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(LC(X)))>;
+            bindings = <&kp LC(F16)>;
             label = "IME_ON";
         };
 
         ime_off: ime_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(LC(C)))>;
+            bindings = <&kp LC(F17)>;
             label = "IME_OFF";
         };
     };
