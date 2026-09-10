@@ -198,22 +198,36 @@
         single_quote: single_quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SQT &kp SQT &kp LEFT_ARROW>;
+            bindings = <&kp SQT &kp SQT>;
             label = "SINGLE_QUOTE";
         };
 
         double_quotes: double_quotes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT &kp DQT &kp LEFT_ARROW>;
+            bindings = <&kp DQT &kp DQT>;
             label = "DOUBLE_QUOTES";
         };
 
         apostrophe: apostrophe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp GRAVE &kp LEFT_ARROW>;
+            bindings = <&kp GRAVE &kp GRAVE>;
             label = "APOSTROPHE";
+        };
+
+        ime_on: ime_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(X)))>;
+            label = "IME_ON";
+        };
+
+        ime_off: ime_off {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(C)))>;
+            label = "IME_OFF";
         };
     };
 
@@ -223,8 +237,8 @@
         default_layer {
             bindings = <
 &kp Q                           &kp W         &kp E         &kp R      &kp T                                                                 &kp Y  &kp U  &kp I      &kp O    &kp P
-&kp A                           &kp S         &kp D         &kp F      &kp G                &sl 4                             &tog 3         &kp H  &kp J  &kp K      &kp L    &kp ENTER
-&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B                &kp LCTRL                         &kp LCTRL      &kp N  &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp A                           &kp S         &kp D         &kp F      &kp G                &sl 4                             &ime_on        &kp H  &kp J  &kp K      &kp L    &kp ENTER
+&hold_tap_balance LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B                &kp LCTRL                         &ime_off       &kp N  &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp LCTRL                       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &layer_ctrl 1 LCTRL  &layer_normalkey 2 BACKSPACE      &kp BACKSPACE  &sl 2                             &sl 3
             >;
         };
