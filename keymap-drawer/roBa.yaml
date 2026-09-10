@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - {t: bluetooth, h: sticky}
-  - {t: mouse, h: toggle}
+  - '&ime_on'
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - LCTRL
-  - LCTRL
+  - '&ime_off'
   - N
   - M
   - ','
