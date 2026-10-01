@@ -42,12 +42,6 @@
             key-positions = <18 19>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <30 31>;
-            timeout-ms = <70>;
-        };
-
         z {
             bindings = <&kp Z>;
             key-positions = <22 23>;
@@ -135,6 +129,16 @@
         scroll2 {
             bindings = <&sl 4>;
             key-positions = <30 32 31>;
+        };
+
+        left_clk {
+            bindings = <&mkp LCLK>;
+            key-positions = <29 30>;
+        };
+
+        right_clk {
+            bindings = <&mkp RCLK>;
+            key-positions = <30 31>;
         };
     };
 
@@ -263,10 +267,10 @@
 
         mouse {
             bindings = <
-&kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                      &trans  &trans     &trans     &kp K_MUTE  &kp C_VOLUME_UP
-&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &trans  &trans  &trans     &trans     &trans      &kp C_VOLUME_DOWN
-&kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &sl 4   &mkp LCLK  &mkp RCLK  &mkp MCLK   &sl 4
-&kp PLUS      &kp NUMBER_0  &kp PERIOD    &trans        &trans  &trans      &trans  &trans                                    &trans
+&kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                      &trans     &trans     &trans     &kp K_MUTE  &kp C_VOLUME_UP
+&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &trans  &trans     &trans     &trans     &trans      &kp C_VOLUME_DOWN
+&kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans      &sl 4
+&kp PLUS      &kp NUMBER_0  &kp PERIOD    &trans        &trans  &trans      &trans  &trans                                       &trans
             >;
         };
 
