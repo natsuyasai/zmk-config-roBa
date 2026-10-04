@@ -162,10 +162,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: bluetooth, h: sticky}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
+  - {t: ▽, type: trans}
   - {t: bluetooth, h: sticky}
   - +
   - '0'
@@ -225,8 +225,6 @@ combos:
   k: TAB
 - p: [18, 19]
   k: Sft+SPACE
-- p: [30, 31]
-  k: ESCAPE
 - p: [22, 23]
   k: Z
 - p: [19, 20]
@@ -265,3 +263,7 @@ combos:
   k: {t: bluetooth, h: sticky}
 - p: [30, 32, 31]
   k: {t: bluetooth, h: sticky}
+- p: [29, 30]
+  k: '&mkp LCLK'
+- p: [30, 31]
+  k: '&mkp RCLK'
