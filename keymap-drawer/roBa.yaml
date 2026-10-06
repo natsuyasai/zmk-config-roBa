@@ -162,10 +162,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
-  - {t: ▽, type: trans}
   - {t: bluetooth, h: sticky}
   - +
   - '0'
@@ -229,7 +229,7 @@ combos:
   k: Z
 - p: [19, 20]
   k: '-'
-- p: [31, 32]
+- p: [7, 8]
   k: '='
 - p: [1, 2]
   k: '&parenthesis'
@@ -261,9 +261,11 @@ combos:
   l: [bluetooth]
 - p: [13, 12, 11]
   k: {t: bluetooth, h: sticky}
-- p: [30, 32, 31]
+- p: [30, 31, 32]
   k: {t: bluetooth, h: sticky}
-- p: [29, 30]
-  k: '&mkp LCLK'
 - p: [30, 31]
+  k: '&mkp LCLK'
+- p: [31, 32]
   k: '&mkp RCLK'
+- p: [32, 33]
+  k: '&mkp MCLK'
